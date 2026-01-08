@@ -13,7 +13,3 @@ if sum == num:
     print("Armstrong Number")
 else:
     print("Not an Armstrong Number")
-
-
-
-
