@@ -13,7 +13,7 @@ ONSquareTime(3)
  
 print("\nWith every 'n' the time taken equals n^2")
 print("O(n^2)")
-# analysis
+# analysis:enxample of neasted loop
 # when n change, itreretion will also change
 # when n chnge, itreration will changing by n square
 # this is time complexity O(n square)
