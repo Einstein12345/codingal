@@ -6,7 +6,6 @@ def myFunc(n):          #function definition
     print("codingal") #Constant extra work
     myFunc(n//2)#recursive call1
     myFunc(n//2)#recursive call2
-   
 myFunc(8)
 #recurence relations will be
 # T(n)=T(n/2)+T(n/2)+ O(1)    ie. O(1) as constant time.
