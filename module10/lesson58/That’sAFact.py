@@ -1,0 +1,14 @@
+# Calculate all factors of a given number
+def print_factors(number):               #function definition
+   print("The factors of",number,"are:")
+   for i in range(1, number + 1):
+       if number % i == 0:
+           print(i)
+ 
+# Taking input from the user
+number = int(input("Enter your number to find it's factors: "))
+ 
+# Calling our function
+print_factors(number)
+
+

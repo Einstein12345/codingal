@@ -6,31 +6,29 @@
 #include <stdio.h>
 
 #  Recursive function
-int f(int n) {
-    if (n <= 1)
-        return 1;
-    else
-        return f(n - 1) + f(n - 1);
-}
+def f(n):
+    if n <= 1:
+        return 1
+    else:
+        return 2 * f(n-1)
 
-int main() {
-    int n;
 
-    printf("Enter value of n: ");
-    scanf("%d", &n);
+n = int(input("Enter value of n: "))
 
-    int result = f(n);
 
-    printf("Result: %d\n", result);
+result = f(n)
 
-    printf("\nRecurrence Relation:\n");
-    printf("T(n) = 2T(n-1) + O(1)\n");
 
-    printf("\nTime Complexity:\n");
-    printf("O(2^n)\n");
+print("Result:", result)
 
-    printf("\nSpace Complexity:\n");
-    printf("O(n)\n");
 
-    return 0;
-}
+print("\nRecurrence Relation:")
+print("T(n) = T(n-1) + O(1)")
+
+
+print("\nTime Complexity:")
+print("O(n)")
+
+
+print("\nSpace Complexity:")
+print("O(n)")
