@@ -28,5 +28,3 @@ binaryToDecimal(binary)
 # 01=1
 # 10=2
 # 11=3
-
-
