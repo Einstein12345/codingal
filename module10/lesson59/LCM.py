@@ -7,4 +7,4 @@ num2 = 18
 
 # Finding LCM
 result = math.lcm(num1, num2)
-print(f"The LCM of {num1} and {num2} is {result}")
+print("The LCM of {num1} and {num2} is {result}")
