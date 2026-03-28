@@ -11,3 +11,4 @@ def setOrNot(number, n):
 number = int(input("Enter number : "))
 n = int(input("Enter bit number : "))
 setOrNot(number, n)
+# set bit : set bit means a bit with value 1 in the binary form of a number 

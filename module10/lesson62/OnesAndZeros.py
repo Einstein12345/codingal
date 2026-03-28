@@ -9,7 +9,7 @@ def numberOfBits(n):
         
         # use AND operator to check if last bit is 1 or 0
         if(n&1==1):
-            ones+=1
+            ones+=1 
         else:
             zeros+=1
         # Right shift the number remove the last bit that we just checked above
@@ -19,4 +19,4 @@ def numberOfBits(n):
  
 number = int(input("Enter your number : "))
 numberOfBits(number)
-# set bit : set bit means a bit with value 1 in the binary form of a number 
+# set bit : set bit means a bit with value 1 in the binary form of a number
