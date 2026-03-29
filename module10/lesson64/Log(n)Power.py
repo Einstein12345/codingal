@@ -24,3 +24,9 @@ y = int(input("Enter y for x^y : "))
 print("Total : ",(computePower(x, y)))
 # Time Complexity: O(log y)
 # Space Complexity: O(1) (constant space)
+
+#Using the built-in pow() function
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
+result = pow(x, y)
+print("Total:", result)
