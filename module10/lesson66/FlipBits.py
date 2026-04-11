@@ -17,3 +17,5 @@ def totalFlips(number1, number2):
 number1 = int(input("Enter First number : "))
 number2 = int(input("Enter Second number : "))
 print("\nNumber of flips needed : ",totalFlips(number1, number2))
+# here bit wise and(&),right shift(>>) operators have been used
+# time complexity is =O(log n)
