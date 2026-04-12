@@ -1,0 +1,6 @@
+What is a Database?
+A database is an organized collection of data that can be easily stored, managed, and retrieved.
+table is part of a database
+
+Structured Query Language
+SQL is a language used to store, manage, and retrieve data from a database.
