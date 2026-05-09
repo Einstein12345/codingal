@@ -23,3 +23,6 @@ tables=pd.read_sql("""SELECT *
                    FROM sqlite_master
                    WHERE type='table';""", conn)
 print(tables)
+Play with Tables
+# Outline:
+# You have to find the results of given queries by using basic SQL statements like - SELECT, WHERE clause, and Min-Max functions.
